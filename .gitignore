@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+.cache/
+
+# Data and Results (Large medical imaging files)
+Task02_Heart/
+Task04_Hippocampus/
+Task05_Prostate/
+Task09_Spleen/
+data/
+*-results/
+raw_data/
+preprocessed_data/
+
+# Dashboard Dependencies
+3d-medical-dashboard/node_modules/
+3d-medical-dashboard/dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
