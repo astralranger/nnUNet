@@ -12,15 +12,25 @@ __pycache__/
 .coverage
 .cache/
 
-# Data and Results (Large medical imaging files)
+# Large Data Folders
 Task02_Heart/
 Task04_Hippocampus/
 Task05_Prostate/
 Task09_Spleen/
 data/
-*-results/
 raw_data/
 preprocessed_data/
+
+# Specific Large Data Formats
+*.nii.gz
+*.nii
+*.mhd
+*.raw
+*.npz
+*.h5
+
+# Results (Push images and metrics)
+# (Implicitly included because they are not ignored above)
 
 # Dashboard Dependencies
 3d-medical-dashboard/node_modules/
