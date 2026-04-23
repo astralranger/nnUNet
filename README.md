@@ -49,38 +49,9 @@ The post-processing layer significantly improves mesh topology for web-based ren
 └── .gitignore             # Configured to exclude heavy NIfTI data while tracking results
 ```
 
----
+## 📂 Datasets
 
-## 🛠️ Installation & Usage
-
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- CUDA-enabled GPU (for nnU-Net training/inference)
-
-### Setup Dashboard
-```bash
-cd 3d-medical-dashboard
-npm install
-npm run dev
-```
-
-### Run Segmentation & Export
-Scripts for preprocessing and mesh extraction are located in the `commands/` directory (ensure nnU-Net environment variables are set).
-
-```powershell
-./commands/predict_spleen.ps1
-python ./commands/export_meshes.py --input path/to/nii --output Results/spleen-results/
-```
+- **Medical Segmentation Decathlon** – Official dataset repository: https://medicaldecathlon.com/
 
 ---
 
-## 📜 Documentation
-Detailed analysis and presentation materials can be found in the [Reports](./Reports) directory:
-- [Morphology Impact Analysis](./Reports/morphology_impact_report.md)
-- [Project Overview](./Reports/NNUNET_OVERVIEW.md)
-- [Poster Content](./Reports/POSTER_CONTENT.md)
-
----
-**Developed for SEM VI - Computer Vision Project.**
-**Author:** [astralranger](https://github.com/astralranger)
