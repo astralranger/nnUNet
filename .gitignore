@@ -20,6 +20,7 @@ Task09_Spleen/
 data/
 raw_data/
 preprocessed_data/
+Reports/
 
 # Specific Large Data Formats
 *.nii.gz
